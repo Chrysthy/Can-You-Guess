@@ -10,6 +10,8 @@ body {
   background-position: center top;
   background-repeat: no-repeat;
   height: 100vh;
+  
+  overflow: hidden;
 }
 
 .container {
@@ -22,7 +24,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
 
   font-size: 120px;
   font-weight: 700;
