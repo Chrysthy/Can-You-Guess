@@ -1,45 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+
+
 body {
-    font-family: "Roboto Mono", monospace;
-    text-align: center;
-    background-image: url("https://media.istockphoto.com/id/1295703395/pt/foto/abstract-yellow-and-black-are-light-pattern-with-the-gradient-is-the-with-floor-wall-metal.jpg?s=612x612&w=0&k=20&c=Be1aPN5tLeatmP_N1OK1ovaYRqJYVG9ljx52Dd60rIM=");
-    background-color: #000000;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    height: 100vh;
-  }
-  
-  .container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .page-title {
-    color: #ffffff;
-    margin: 0 0 5px;
-  }
-  
-  .page-subtitle {
-    color: #ffffff;
-    margin-top: 5px;
-  }
-  
-  /* .page-logo {
-    width: 200px;
-  } */
-  
-  .alura-logo {
-    width: 40px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  
-  body > img {
-    margin: 0 10px;
-  }
-  
-  img {
-    max-height: 350px;
-  }
-  
+  font-family: 'Cabin Sketch', sans-serif;
+  text-align: center;
+  background-image: url(https://i.pinimg.com/originals/4f/e2/fb/4fe2fb41d9ec09298c7768c73d9eab4e.jpg);
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+
+  font-size: 120px;
+  font-weight: 700;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+/* body>img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 350px;
+} */
